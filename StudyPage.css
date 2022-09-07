@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+} 
+.header{
+    width:100%;
+	background: #F0E68C;
+	z-index: 1;
+	position: fixed;
+}
+
+.logo a{
+    left: 3%;
+    font-size: 200%;
+    font-weight: bold;
+    width: 0%;
+    float: left;
+    line-height: 70px;
+}
+
+
+.logo img:hover
+{
+	color: #000;
+    background: #BDB76B;
+}
+
+.logo img{
+	width: 50px;
+	height: auto;
+	padding: 3px;
+}
+
+.item button{
+    height: 25px;
+    width: 90px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    background: #000000;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #BDB76B;
+    border-radius: 25px;
+    transition: .4s;
+	margin: 10px;
+}
+.item button:hover{
+    color: #000;
+    background: #fff;
+}
+.item a{
+	list-style: none;
+	text-decoration: none;
+}
+
+.nav ul {
+            list-style: none;
+            margin: 0;
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+			text-decoration: none;
+            }
+
+    .nav li {
+            font-size: 110%;
+            text-transform: uppercase;
+            text-decoration:none;
+            padding-right: 2em;
+            float: left;
+            line-height: 70px;
+            }
+.hehe li{
+	list-style: none;
+	text-decoration: none;
+}
+
+.Title {
+	background: rgb(250, 227, 247);
+}
+
+.Panchor{
+	background: rgb(237, 245, 244)
+}
+.Panchor h3{
+	text-align: center
+}
+.Panchor pre{
+	text-align: center;
+}
+.Panchor img{
+	display: block;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Panchor img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+.Panchor table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.kgv h3{
+	text-align: center
+}
+.kgv pre{
+	text-align: center;
+}
+.kgv img{
+	display: block;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.kgv img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+.kgv{
+	background: rgb(255, 241, 201);
+}
+.kgv table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.MAQ h3{
+	text-align: center
+}
+.MAQ pre{
+	text-align: center;
+}
+.MAQ table{
+	margin-left: auto;
+	margin-right: auto;
+}
+.MAQ img{
+	display: block;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.MAQ img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+.MAQ{
+	background:rgb(232, 250, 239)
+}
+
+.Unisel h3{
+	text-align: center
+}
+.Unisel pre{
+	text-align: center;
+}
+.Unisel{
+	background: rgb(239, 227, 250);
+}
+.Unisel table{
+	margin-left: auto;
+	margin-right: auto;
+}
+.Unisel img{
+	display: block;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Unisel img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+
+.Kuim h3{
+	text-align: center
+}
+.Kuim pre{
+	text-align: center;
+}
+.Kuim{
+	background: rgb(197, 242, 191);
+}
+.Kuim table{
+	margin-left: auto;
+	margin-right: auto;
+}
+.Kuim img{
+	display: block;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Kuim img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#262626;
+  color: black;
+  text-align: center;
+}
+.footer table{
+	margin-left: auto;
+	margin-right: auto;
+}

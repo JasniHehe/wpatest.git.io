@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+} 
+
+.header{
+    width:100%;
+	background: #F0E68C;
+	z-index: 1;
+	position: fixed;
+}
+
+.logo a{
+   	left: 3%;
+    font-size: 200%;
+    font-weight: bold;
+    width: 0%;
+    float: left;
+    line-height: 70px;
+}
+
+
+.logo img:hover
+{
+	color: #000;
+    background: #BDB76B;
+}
+
+.logo img{
+	width: 50px;
+	height: auto;
+	padding: 3px;
+}
+
+.item button{
+    height: 25px;
+    width: 90px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    background: #000000;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #BDB76B;
+    border-radius: 25px;
+    transition: .4s;
+	margin: 10px;
+}
+.item button:hover{
+    color: #000;
+    background: #fff;
+}
+.item a{
+	list-style: none;
+	text-decoration: none;
+}
+.nav ul {
+            list-style: none;
+            margin: 0;
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+			text-decoration: none;
+            }
+
+    .nav li {
+            font-size: 110%;
+            text-transform: uppercase;
+            text-decoration:none;
+            padding-right: 2em;
+            float: left;
+            line-height: 70px;
+            }
+.hehe li{
+	list-style: none;
+	text-decoration: none;
+}
+
+.contact table{
+	margin-left: auto;
+	margin-right: auto;
+	table-layout: fixed;
+}
+.contact td{
+	text-align: center;
+}
+
+.social table{
+	margin-left: auto;
+	margin-right: auto;
+	table-layout: fixed;
+}
+.social td{
+	text-align: center;
+}
+
+.contact table{
+	border: outset;
+}
+.social table{
+	border: outset;
+}
+.contact button{
+    height: 30px;
+    width: 170px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    background:rgba(237,212,213,1.00);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    transition: .4s;
+	margin: 10px;
+}
+.contact button:hover{
+    color: #000;
+    background: #f57676;
+}
+.contact a{
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+}
+.contact{
+	background:rgba(237,212,213,1.00);
+}
+
+.social{
+	background: rgba(227,222,243,1.00);
+}
+
+.social button{
+   height: 30px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    background:rgba(227,222,243,1.00);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    transition: .4s;
+	margin: 10px;
+}
+.social button:hover{
+      color: #000;
+    background: #f57676;
+}
+.social a{
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#262626;
+  color: black;
+  text-align: center;
+}
+.footer table{
+	margin-left: auto;
+	margin-right: auto;
+}

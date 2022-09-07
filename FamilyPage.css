@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+} 
+
+.header{
+    width:100%;
+	background: #F0E68C;
+	z-index: 1;
+	position: fixed;
+}
+
+.logo a{
+    left: 3%;
+    font-size: 200%;
+    font-weight: bold;
+    width: 0%;
+    float: left;
+    line-height: 70px;
+}
+
+.logo img:hover
+{
+	color: #000;
+    background: #BDB76B;
+}
+
+.logo img{
+	width: 50px;
+	height: auto;
+	padding: 3px;
+}
+
+.item button{
+    height: 25px;
+    width: 90px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    background: #000000;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #BDB76B;
+    border-radius: 25px;
+    transition: .4s;
+	margin: 10px;
+}
+.item button:hover{
+    color: #000;
+    background: #fff;
+}
+.item a{
+	list-style: none;
+	text-decoration: none;
+}
+.nav ul {
+            list-style: none;
+            margin: 0;
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+			text-decoration: none;
+            }
+
+    .nav li {
+            font-size: 110%;
+            text-transform: uppercase;
+            text-decoration:none;
+            padding-right: 2em;
+            float: left;
+            line-height: 70px;
+            }
+.hehe li{
+	list-style: none;
+	text-decoration: none;
+}
+
+.Label {
+	background: rgba(188,245,255,1.00)
+}
+.ibu img{
+	float: left;
+	margin-left: 20%;
+}
+.ibu img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+
+.abah img{
+	float: right;
+	margin-right: 20%;
+}
+.abah img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+
+.akak img{
+	float: left;
+	margin-left: 20%;
+}
+.akak img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+.akak pre{
+
+}
+
+.angah img{
+	float: right;
+		margin-right: 20%;
+}
+.angah img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+
+.adik img{
+	float: left;
+	margin-left: 20%;
+}
+.adik img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+
+.mok img{
+	float: right;
+	margin-right: 20%;
+}
+.mok img:hover{
+    border-radius: 25%;
+    transition: 1s;
+}
+
+.ibu pre{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+		background:rgba(215,179,209,1.00)
+}
+
+.abah pre{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	background:rgba(185,180,221,1.00)
+}
+
+.akak pre{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	background: rgba(236,169,219,1.00)
+
+}
+
+.angah pre{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+			background: rgba(155,158,223,1.00)
+}
+
+.adik pre{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	background: rgba(236,199,200,1.00)
+}
+
+.mok pre{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	background: rgba(207,199,239,1.00)
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#262626;
+  color: black;
+  text-align: center;
+}
+.footer table{
+	margin-left: auto;
+	margin-right: auto;
+}

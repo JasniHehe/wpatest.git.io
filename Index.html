@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+<title>JH || Home</title>
+	<script>
+function MyFunction() {
+          var txt;
+        var r = confirm("You Will Go To Feedback Page");
+        if (r == true) 
+            {
+              window.location = "mailto: jasnihusaini7@gmail.com ";
+            } 
+        else {
+            }
+        }</script>
+	<link rel="stylesheet" href="Index.css">
+	<style>
+#more {display: none;}
+		body {
+			  background-image: url("img/wallpaper2.jpg");
+		}
+</style>
+	<link rel="icon" href="img/Hehe.jpg" type="image" sizes="16x16">
+</head>
+
+<body >
+	<div class="header">
+        <div class="nav"> 
+         <div class="logo">
+           <a href="Index.html"><img src="img/logo.png" alt=""></a>       
+			</div>
+			 <p>&nbsp;</p>
+             <ul class="item">
+               <button><a href="FamilyPage.html" style="color: #BDB76B">Family</a></button>
+               <button><a href="StudyPage.html" style="color: #BDB76B">Study</a></button>
+               <button><a href="MomentPage.html" style="color: #BDB76B">Moment</a></button>
+               <button><a href="ContactPage.html" style="color: #BDB76B"> Contact</a></button>
+            </ul>
+        </div>
+	</div>
+	
+
+	<div class="first">
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+
+		<h3 align="center" style="font-family: Verdana, sans-serif">WELCOME TO MY PAGE, HAVE A LOOK AROUND!</h3>
+		<p>&nbsp;</p>
+    </div>
+	
+	<div class="Penulisan">
+		<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/Jasni4.jpg" style="width:100%" alt="">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+	<img src="img/Jasni5.jpg" style="width:100%" alt="">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/Jasni3.jpg" style="width:100%" alt="">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	  <h3 align="center">First of all, let me introduce myself </h3>
+		
+	<p >Name : <span style="font-style: italic; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">Jasni Husaini Bin Mohd Johari</span></p>
+	
+	<p>Age : <span style="font-style: italic;">19 Years Old</span></p>
+	
+	<p>Date of Birth : <span style="font-style: italic">5 January 2002</span></p>
+	
+	<p>Place of Birth :<span style="font-style: italic;"> Hospital Tuanku Ja'afar Seremban</span></p>
+		
+	<p>Father's Name : <span style="font-style: italic">Mohamad Johari Bin Kassim</span></p>
+	
+	<p>Mother's Name :<span style="font-style: italic;"> Haslina Binti Mohd Ali</span></p>	
+	
+	<p>Marital Status:  <span style="font-style: italic" >Single</span></p>
+	
+	<p>Languages : <span style="font-style: italic">Malay, English</span></p>
+		
+	<p>Placed Live : <span style="font-style: italic">Seremban, Negeri Sembilan</span></p>
+	
+	<p>Siblings : <span style="font-style: italic">5 (3 Boys and 2 Girls)</span></p>
+		<p>&nbsp;</p>
+</div>
+	
+	<div class="facts">
+	<h3>Let me tell you some fun facts about me</h3>
+	<ul>
+		<li>I love to read poetry books</li>
+	<span id="dots">...</span>
+	<span id="more">
+		<li>Foutwnty is my favourite band</li>
+		<li>Indie is my favourite music gender</li> 
+		<li>I do play badminton pretty well even though it's not my hobby</li>
+		</span>
+		</ul>
+		
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+	
+	</div>
+	
+	<div class="strength">
+		<h3>My Strength</h3>
+	<ul>
+		<li>Honest</li>
+		<li>Respectful</li>
+		<li>Patient </li> 
+		<li>Committed/dedicated</li>
+		</ul>
+	</div>
+	
+	<div class="weakness">
+		<h3>My Weakness</h3>
+	<ul>
+		<li>Disorganized</li>
+		<li>Sensitive</li>
+		<li>Perfectionism </li> 
+		<li>Not adept at public speaking</li>
+		</ul>
+	</div>
+	
+<div class="footer">
+		<table width="300" border="0">
+  <tbody>
+    <tr>
+		<td style="color: rgba(229,229,229,1); text-align: center; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px;"> ©Copyright || Created by Jasni Husaini</td>
+    </tr>
+    <tr>
+      <td> <a style="color: rgba(197,195,195,1); text-align: center; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; " onclick="MyFunction()">Send Feedback</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>
